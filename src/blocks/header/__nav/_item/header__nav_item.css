@@ -1,0 +1,9 @@
+.header__nav_item {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.header__nav_item-img {
+    width: 25px;
+    height: 25px;
+}

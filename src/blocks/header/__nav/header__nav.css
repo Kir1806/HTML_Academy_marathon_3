@@ -1,0 +1,10 @@
+@import url('./_list/header__nav_list.css');
+@import url('./_item/header__nav_item.css');
+@import url('./_item/header__nav_item-link.css');
+
+.header__nav { 
+    width: 86%;   
+    margin-left: auto;
+    margin-right: 100px;
+    border: 1px solid red;
+}

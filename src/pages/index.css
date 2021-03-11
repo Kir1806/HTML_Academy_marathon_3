@@ -1,6 +1,9 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/font.css');
 
+@import url('../blocks/header/header.css');
+
 body {
-    background-color: #000;
+    background-color: #e5e5e5;
+    font-family: 'Montserrat Regular' sans-serif;
 }

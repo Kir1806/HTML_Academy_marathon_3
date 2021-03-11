@@ -1,0 +1,9 @@
+@import url('./__nav/header__nav.css');
+
+.header {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background: url('../../images/header_background.jpg') center center no-repeat;
+    background-size: cover;
+}
