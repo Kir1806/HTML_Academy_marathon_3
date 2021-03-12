@@ -3,8 +3,9 @@
 @import url('./_item/header__nav_item-link.css');
 
 .header__nav { 
-    width: 86%;   
+    width: 86%;
+    /* margin-top: 32px;    */
     margin-left: auto;
-    margin-right: 100px;
-    border: 1px solid red;
+    margin-right: auto;
+    /* border: 1px solid red; */
 }

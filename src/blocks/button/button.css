@@ -1,0 +1,11 @@
+.button {
+    display: block;
+    width: 170px;
+    padding: 25px 60px;
+    background-color: #CC8B86;
+    border: none;
+    text-decoration: none;
+    color: inherit;    
+    font-size: 20px;
+    line-height: 24px;
+}

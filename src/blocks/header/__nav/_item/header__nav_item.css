@@ -2,6 +2,9 @@
     margin-bottom: auto;
     margin-top: auto;
 }
+.header__nav_item:first-child {
+    margin-right: 89px;
+}
 
 .header__nav_item-img {
     width: 25px;
