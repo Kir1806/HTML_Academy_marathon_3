@@ -1,4 +1,6 @@
 .about__footer_item {
+    display: flex;
+    flex-direction: column;
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
@@ -7,15 +9,18 @@
     text-align: center
 }
 
-.about__footer_item:nth-child(2) {
-    width: 200px;
-    /* height: 74px; */
-}
+
 .about__footer_item:first-child {
-    width: 200px;
+    
     margin-left: 182px;
 }
 .about__footer_item:last-child {
-    width: 132px;    
+    
     margin-right: 182px;
+}
+.about__footer_item-dig {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
 }
