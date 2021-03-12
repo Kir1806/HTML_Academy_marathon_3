@@ -1,0 +1,21 @@
+.about__footer_item {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center
+}
+
+.about__footer_item:nth-child(2) {
+    width: 200px;
+    /* height: 74px; */
+}
+.about__footer_item:first-child {
+    width: 200px;
+    margin-left: 182px;
+}
+.about__footer_item:last-child {
+    width: 132px;    
+    margin-right: 182px;
+}

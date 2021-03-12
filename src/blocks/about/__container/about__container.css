@@ -1,0 +1,9 @@
+@import url('./_image/about__container_image.css');
+@import url('./_block/about__container_block.css');
+
+.about__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21px;
+}

@@ -1,0 +1,11 @@
+.about__container_block {
+    width: 528px;
+}
+.about__block_text {
+    margin: 0;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}

@@ -40,8 +40,32 @@
     и помогаем организовать доставку </p>
     <a  class="button header__button" href="#">Оставить заявку</a>
   </header>
+  <main>
+    <div class="about">
+      <h2 class="about__title">О НАС</h2>
+      <div class="about__container">
+        <img src="<%=require('./images/about_image.jpg').default%>" alt="фотография сервировки стола" class="about__container_image">
+          <div class="about__container_block">
+            <p class="about__block_text">Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. 
+              Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  
+              что по-настоящему вдохновляет дизайнеров нашей студии.
+            </p>
+            <p class="about__block_text">Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:
+              « Да! Это именно то, что действительно достойно моего дома!»
+            </p>
+        </div>
+      </div>
+      <div class="about__footer">
+        <div class="about__footer_item">5 <br>лет опыта</div>
+        <div class="about__footer_item">100 проектов</div>
+        <div class="about__footer_item">10 наград</div>
+      </div>
+
+    </div>
+  </main>
  
         
        
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
+</html>
