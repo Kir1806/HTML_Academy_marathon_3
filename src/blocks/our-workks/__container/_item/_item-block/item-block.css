@@ -1,0 +1,17 @@
+@import url('./_title/item-block_title.css');
+@import url('./_text/item-block_text.css');
+
+.item-block {
+    width: calc(100% - 20px);
+    height: 95%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    opacity: 0;
+	background-color: rgba(100, 72, 69, 0.8);;
+	transition: all 0.4s ease-in-out;
+	color: #fff;
+    /* border: 1px solid red; */
+}

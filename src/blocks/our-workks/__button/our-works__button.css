@@ -1,0 +1,13 @@
+.our-works__button {
+    display: block;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-decoration: none;
+    color: inherit;
+
+}

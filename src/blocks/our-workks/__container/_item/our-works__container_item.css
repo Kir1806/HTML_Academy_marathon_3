@@ -1,0 +1,14 @@
+@import url('./_item-img/item-img.css');
+@import url('./_item-block/item-block.css');
+
+.our-works__container_item {
+    display: inline-block;
+    /* width: 100%;   */
+    position: relative;
+    overflow: hidden; 
+    /* border: 1px solid red; */
+}
+
+.our-works__container_item:hover .item-block {
+    opacity: 1;
+}
