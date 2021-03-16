@@ -1,0 +1,15 @@
+.team-cards-principle__item_circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #8D7370;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;    
+}

@@ -1,0 +1,10 @@
+@import url('./__item/team-cards-principle__item.css');
+
+.team-cards-principle {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 80px;
+}

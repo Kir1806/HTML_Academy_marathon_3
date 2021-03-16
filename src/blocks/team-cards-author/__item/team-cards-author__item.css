@@ -1,0 +1,7 @@
+@import url('./_img/team-cards-author__item_img.css');
+@import url('./_txt/team-cards-author__item_txt.css');
+
+.team-cards-author__item {
+    width: 320px;
+    height: 440px;
+}

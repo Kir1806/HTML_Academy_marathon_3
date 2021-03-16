@@ -1,0 +1,10 @@
+@import url('./__item/team-cards-author__item.css');
+
+.team-cards-author {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+}

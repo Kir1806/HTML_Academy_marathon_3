@@ -1,0 +1,10 @@
+@import url('./_circle/team-cards-principle__item_circle.css');
+@import url('./_txt/team-cards-principle__item_txt.css');
+
+
+.team-cards-principle__item {
+    width: 285px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;    
+}
