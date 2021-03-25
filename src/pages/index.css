@@ -5,6 +5,8 @@
 @import url('../blocks/about/about.css');
 @import url('../blocks/our-workks/our-works.css');
 @import url('../blocks/team/team.css');
+@import url('../../node_modules/swiper/swiper-bundle.css');
+@import url('../blocks/reviews/reviews.css');
 
 body {
     max-width: 1400px;

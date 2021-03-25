@@ -1,0 +1,6 @@
+.swiper-button-prev {
+    left: 25px;
+}
+.arrow-prev::after {
+    content: none;
+}

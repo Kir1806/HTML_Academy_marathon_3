@@ -1,0 +1,6 @@
+.swiper-button-next {
+    right: 25px;
+}
+.arrow-next::after {
+    content: none;
+}

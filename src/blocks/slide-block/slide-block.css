@@ -1,0 +1,10 @@
+@import url('./__left/slide-block__left.css');
+@import url('./__rifht/slide-block__right.css');
+
+.slide-block {
+    display: flex;
+    justify-content: space-between;
+    width: 834px;
+    margin-right: auto;
+    margin-left: auto;    
+}

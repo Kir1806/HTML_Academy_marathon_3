@@ -1,0 +1,7 @@
+.right_img {
+    width: 407px;
+    margin-bottom: 24px;
+}
+.right_img:last-child {
+    margin: 0;
+}

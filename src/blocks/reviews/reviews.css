@@ -1,0 +1,10 @@
+@import url('./__title/reviews__title.css');
+@import url('../swipper-container/swipper-container.css');
+@import url('../slide-block/slide-block.css');
+
+
+.reviews {
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}

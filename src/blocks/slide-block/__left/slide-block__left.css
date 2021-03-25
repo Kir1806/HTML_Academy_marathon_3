@@ -1,0 +1,9 @@
+@import url('./_text/left_text.css');
+@import url('./_sign/left_sign.css');
+
+.slide-block__left {
+    width: 407px;
+    padding-top: 90px;
+    padding-bottom: 92px;
+    padding-right: 19px;
+}
