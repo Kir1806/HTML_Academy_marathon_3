@@ -1,0 +1,10 @@
+@import url('./_item/footer__nav_item.css');
+
+.footer__nav {
+    width: 85%;      
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}

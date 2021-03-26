@@ -1,0 +1,5 @@
+@import url('./map-container/map-container.css');
+
+.applications__map {
+    margin-left: 20px;    
+}

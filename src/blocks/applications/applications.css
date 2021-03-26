@@ -1,0 +1,9 @@
+@import url('../form-applications/form-applications.css');
+@import url('./__map/applications__map.css');
+
+.applications {
+    display: flex;
+    padding-left: 182px;
+    padding-right: 101px;
+    background-color: #8D7370;    
+}
