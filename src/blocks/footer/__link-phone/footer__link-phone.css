@@ -1,0 +1,8 @@
+.footer__link-phone {
+    text-decoration: none;
+    
+    color: inherit;
+}
+.footer__link-phone:hover {
+    color: #cc8b86;
+}
