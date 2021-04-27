@@ -282,10 +282,18 @@
       <form action="https://echo.htmlacademy.ru" method="post" class="form-applications">
         <h2 class="title form-applications__title">оставить заявку</h2>
         <p class="form-applications__text">Оставьте свои контакты. Менеджер перезвонит
-          в удобное вам время и ответит на все вопросы.</p>
-        <input type="text" class="form-applications__name-input" placeholder="Ваше имя" minlength="3">
-        <input type="tel" class="form-applications__phone-input" placeholder="Введите телефон" minlength="10" maxlength="11">
-        <a  class="button form-applications__button" href="#">Оставить заявку</a>
+          в удобное вам время и ответит на все вопросы.
+        </p>
+        <p class="form-application__action">
+          <input type="text" class="form-applications__name-input" id="name" name="name"  minlength="3" required>
+          <label for="name" class="form-applications__name-label">Ваше имя</label>
+        </p>
+        <p class="form-application__action">
+          <input type="tel" class="form-applications__phone-input" id="phone" name="phone"  minlength="10" maxlength="11" required>
+          <label for="phone" class="form-applications__phone-label">Введите телефон</label>
+        </p>
+        <button class="form-applications__button" type="submit">Оставить заявку</button>
+        <!-- <a  class="button form-applications__button" href="#">Оставить заявку</a> -->
       </form>
       <div class="applications__map">
         <div class="map-container">

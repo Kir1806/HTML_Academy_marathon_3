@@ -1,9 +1,10 @@
-.form-applications__text {
+.form-application__action {
+    position: relative;
+    margin: 0;
+
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    color: #fff;
-    opacity: 0.6;
-    margin-bottom: 44px;
+    color: #F6EDE9;
 }

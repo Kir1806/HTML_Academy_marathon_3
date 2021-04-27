@@ -5,11 +5,11 @@
     box-sizing: border-box;
     border-bottom: 1px solid #fff;
     background-color: #8D7370;
-    margin-bottom: 31px;
+    margin-bottom: 31px;   
+}
 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    color: #F6EDE9;
+.form-applications__phone-input:focus + .form-applications__phone-label,
+.form-applications__phone-input:valid:not(:placeholder-shown) + .form-applications__phone-label {
+    bottom: 70px;
+    transition: 0.2s ease-in;
 }

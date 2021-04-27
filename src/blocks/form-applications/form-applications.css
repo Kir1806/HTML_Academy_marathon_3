@@ -1,8 +1,12 @@
 @import url('./__title/form-applications__title.css');
 @import url('./__text/form-applications__text.css');
+@import url('./__action/form-application__action.css');
 @import url('./__name-input/form-applications__name-input.css');
 @import url('./__name-input/form-applications__phone-input.css');
+@import url('./__name-label/form-applications__name-label.css');
+@import url('./__phone-label/form-applications__phone-label.css');
+@import url('./__button/form-applications__button.css');
 
 .form-applications {
-    width: 508px;
+    width: 508px;    
 }

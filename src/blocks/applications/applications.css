@@ -2,6 +2,7 @@
 @import url('./__map/applications__map.css');
 
 .applications {
+    height: 624px;
     display: flex;
     padding-left: 182px;
     padding-right: 101px;

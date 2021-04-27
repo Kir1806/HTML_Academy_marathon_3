@@ -1,0 +1,6 @@
+.form-applications__phone-label {
+    position: absolute;
+    bottom: 43px;
+    left: 0;
+    transition: .2s ease-in;
+}

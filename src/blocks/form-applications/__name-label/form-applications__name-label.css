@@ -1,0 +1,6 @@
+.form-applications__name-label {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    transition: .2s ease-in;
+}
