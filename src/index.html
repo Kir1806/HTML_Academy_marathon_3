@@ -21,22 +21,22 @@
       <ul class="header__nav_list">
         <li class="header__nav_item"><a href="#" class="header__nav_item-link">
           <img class="header__nav_item-img" src="<%=require('./images/logo.png').default%>" alt="logo">SCANDI</a></li>
-        <li class="header__nav_item"><a href="#" class="header__nav_item-link">O компании</a></li>
-        <li class="header__nav_item"><a href="#" class="header__nav_item-link">Портфолио</a></li>
-        <li class="header__nav_item"><a href="#" class="header__nav_item-link">Команда</a></li>
-        <li class="header__nav_item"><a href="#" class="header__nav_item-link">Как мы работаем</a></li>
-        <li class="header__nav_item"><a href="#" class="header__nav_item-link">Отзывы клиентов</a></li>
-        <li class="header__nav_item"><a href="#" class="header__nav_item-link">Оставить заявку</a></li>
-        <li class="header__nav_item"><a href="#" class="header__nav_item-link">+7(981)857-46-24</a></li>
+        <li class="header__nav_item"><a href="#about" class="header__nav_item-link">O компании</a></li>
+        <li class="header__nav_item"><a href="#our-works" class="header__nav_item-link">Портфолио</a></li>
+        <li class="header__nav_item"><a href="#team" class="header__nav_item-link">Команда</a></li>
+        <li class="header__nav_item"><a href="#team" class="header__nav_item-link">Как мы работаем</a></li>
+        <li class="header__nav_item"><a href="#reviews" class="header__nav_item-link">Отзывы клиентов</a></li>
+        <li class="header__nav_item"><a href="#form" class="header__nav_item-link">Оставить заявку</a></li>
+        <li class="header__nav_item"><a href="tel:+79818574624" class="header__nav_item-link">+7(981)857-46-24</a></li>
       </ul>
     </nav>
     <h1 class="header__title">Поможем сделать вашу квартиру уютнее</h1>
     <p class="header__text">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины
     и помогаем организовать доставку </p>
-    <a  class="button header__button" href="#">Оставить заявку</a>
+    <a  class="button header__button" href="#form">Оставить заявку</a>
   </header>
   <main>
-    <div class="about">
+    <div class="about" id="about">
       <h2 class="title about__title">О НАС</h2>
       <div class="about__container">
         <img src="<%=require('./images/about_image.jpg').default%>" alt="фотография сервировки стола" class="about__container_image">
@@ -56,7 +56,7 @@
         <div class="about__footer_item"><span class="about__footer_item-dig">10</span><span>наград</span></div>
       </div>
     </div> <!--about-->
-    <div class="our-works">
+    <div class="our-works" id="our-works">
       <h2 class="title our-works__title">наши работы</h2>
       <div class="our-works__container">
         <div class="our-works__container_item">
@@ -107,7 +107,7 @@
       <a href="#" class="our-works__button">Смотреть ещё <img src="<%=require('./images/our-works_arrow_3.svg').default%>" alt="стрелка" class=""></a>
     </div>    
     <!-- /.our-works -->
-    <div class="team">
+    <div class="team" id="team">
       <h2 class="title team__title">Команда</h2>
       <div class="team-cards-author">
         <div class="team-cards-author__item">
@@ -128,7 +128,7 @@
             как обсутроить дом так, чтобы вам понравилось.</p>
         </div>
       </div>
-      <h2 class="title team__title">Как мы работаем</h2>
+      <h2 class="title team__title" id="team-cards">Как мы работаем</h2>
       <div class="team-cards-principle">
         <div class="team-cards-principle__item">
           <div class="team-cards-principle__item_circle"><span>1</span></div>
@@ -160,7 +160,7 @@
      <!--team  -->
 
      
-     <div class="reviews">
+     <div class="reviews" id="reviews">
        <h2 class="title reviews__title">отзывы</h2>
 
        <div class="swiper-container">
@@ -273,7 +273,7 @@
      <!-- /.reviews -->
 
 
-     <div class="applications">
+     <div class="applications" id="form">
       <form action="https://echo.htmlacademy.ru" method="post" class="form-applications">
         <h2 class="title form-applications__title">оставить заявку</h2>
         <p class="form-applications__text">Оставьте свои контакты. Менеджер перезвонит
