@@ -9,3 +9,8 @@
     border: 2px solid #cc8b86;
     background-color: #cc8b86;
 }
+.form-applications__button:hover {
+    background-color: #fff;
+    color:#CC8B86;
+    border: 2px solid #fff;
+}

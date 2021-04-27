@@ -8,4 +8,9 @@
     color: inherit;    
     font-size: 20px;
     line-height: 24px;
+    font-weight: 500;
+}
+.button:hover {
+    background-color: #fff;
+    color:#CC8B86;
 }

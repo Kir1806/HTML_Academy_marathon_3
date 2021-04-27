@@ -1,4 +1,5 @@
-import Swiper from 'swiper';
+import Swiper, {Navigation} from 'swiper';
+Swiper.use([Navigation]);
 
 let Slider = new Swiper ('.swiper-container', {
   loop: true,

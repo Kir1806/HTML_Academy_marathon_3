@@ -4,3 +4,6 @@
 .arrow-next::after {
     content: none;
 }
+.arrow-next:hover {    
+    border: 2px solid #cc8b86;
+}
